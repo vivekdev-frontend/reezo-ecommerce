@@ -9613,6 +9613,10 @@ body::after {
   animation: reezoCosmicPulse 8s ease-in-out infinite alternate;
 }
 
+#root {
+  position: relative;
+  z-index: 2;
+}
 
 @keyframes reezoCosmicPulse {
 
