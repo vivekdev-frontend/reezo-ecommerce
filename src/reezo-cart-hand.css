@@ -1,0 +1,24 @@
+/* REEZO CART HAND V3 — imported by ProductCard.jsx. */
+.reezo-hand-v3 { position: fixed; inset: 0; z-index: 10000; pointer-events: none; overflow: hidden; }
+.reezo-hand-v3 img { display: block; max-width: none; margin: 0; padding: 0; border: 0; }
+.rhv3-group { position: absolute; top: 0; left: 0; width: 0; height: 0; transform-origin: 0 0; will-change: transform; }
+.rhv3-portal { position: absolute; left: 0; top: 0; height: auto; transform-origin: center; }
+.rhv3-hand { position: absolute; height: auto; z-index: 2; opacity: 0;
+  /* Remove the inspected retract image's baked-in ring and feather the wrist. */
+  -webkit-mask-image: linear-gradient(to right, transparent 46%, #000 59%);
+  mask-image: linear-gradient(to right, transparent 46%, #000 59%);
+  filter: drop-shadow(0 0 5px #855bff);
+}
+.rhv3-product { position: absolute; left: 0; top: 0; transform: translate(-50%,-50%); opacity: 0; z-index: 3; border-radius: 4px; }
+.rhv3-success-shade { position: fixed; inset: 0; z-index: 10001; background: #02051099; display: grid; place-items: center; padding: 20px; }
+.rhv3-success { box-sizing: border-box; width: min(420px,100%); padding: 28px; border: 1px solid #7256ff88; border-radius: 20px; background: #080d24; color: #fff; text-align: center; box-shadow: 0 12px 60px #0008; }
+.rhv3-check { display: grid; place-items: center; width: 46px; height: 46px; margin: 0 auto 14px; border-radius: 50%; background: #653cff; font-size: 26px; }
+.rhv3-success h2 { margin: 0 0 12px; color: #fff; }
+.rhv3-success p { margin: 0 0 12px; line-height: 1.5; }
+.rhv3-success span { font-size: 13px; color: #c6c9df; }
+.rhv3-actions { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 22px; }
+.rhv3-actions button { cursor: pointer; padding: 11px 15px; border: 1px solid #687095; border-radius: 9px; color: #fff; background: #151c3a; font: inherit; font-size: 13px; }
+.rhv3-actions button:last-child { background: #ed5829; border-color: #ed5829; }
+.rhv3-actions button:focus-visible { outline: 3px solid #bdaaff; outline-offset: 3px; }
+
+.rhv3-fingers { z-index: 4; clip-path: inset(0 0 0 82%); }
